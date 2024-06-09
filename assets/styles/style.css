@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    }
+    
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #040F16;
+}
+
+.container {
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    }
+    
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+}
+
+header div p {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+header > div > p:nth-child(1) {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+header img {
+    border-radius: 50%;
+    height: 200px;
+    box-shadow: 0 0 0 5px white;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 7.5px;
+}
+
+main a {
+    width: 100%;
+    text-decoration: none;
+    transition: .25s;
+}
+
+.medias {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.5px;
+    padding: 17.5px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.github {
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.github:hover {
+    background-color: white;
+    color: #040F16;
+}
+    
+.linkedin {
+    border: 3px solid #0A66C2;
+    border-radius: 10px;
+    color: #0A66C2;
+    i {
+        color: #0A66C2;
+    }
+}
+
+.linkedin:hover {
+    background-color: #0A66C2;
+    color: #040F16;
+    i {
+        color: #040F16;
+    }
+}
+
+.instagram {
+    border: 3px solid #FE0A5F;
+    border-radius: 10px;
+    color: #FE0A5F;
+    i {
+        color: #FE0A5F;
+    }
+}
+
+.instagram:hover {
+    background-color: #FE0A5F;
+    color: #040F16;
+    i {
+        color: #040F16;
+    }
+}
